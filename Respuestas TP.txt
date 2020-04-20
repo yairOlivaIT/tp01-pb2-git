@@ -12,3 +12,5 @@ Al ver que me tira este error fue buscar soluciones, y probe con borrar mi usuar
 hasta que lei hacer un fork , eso me permitio poder hacer cambio en el repositorio pero desde mi propio
 usuario no desde el repositorio de mi compañero ya que cada vez que intentaba hacer un push, me decia
 el error de arriba.
+
+7-Creando ramas.
