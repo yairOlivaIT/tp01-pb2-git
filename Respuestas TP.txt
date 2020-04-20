@@ -1,0 +1,14 @@
+5- Cuando intentamos hacer el segundo push me salio este error
+aclaro, que el primer push lo hizo mi compañero Cristian, solo cambiando los if por el switch.
+Lo clone para cambiar de lugar la suma por la multiplicación. Y me salio este error, cuando intente
+pushear.
+
+
+remote: Permission to devheitt/tp01-pb2-git.git denied to yairOlivaIT.
+fatal: unable to access 'https://github.com/devheitt/tp01-pb2-git.git/': 
+The requested URL returned error: 403
+
+Al ver que me tira este error fue buscar soluciones, y probe con borrar mi usuario de git y demas
+hasta que lei hacer un fork , eso me permitio poder hacer cambio en el repositorio pero desde mi propio
+usuario no desde el repositorio de mi compañero ya que cada vez que intentaba hacer un push, me decia
+el error de arriba.
