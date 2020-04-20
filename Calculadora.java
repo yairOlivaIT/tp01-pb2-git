@@ -19,16 +19,16 @@ public class Calculadora {
 		
 		switch(opcion) {
 		case 1:
-			resultado = a * b;
+			Multiplicar(a,b);
 			break;
 		case 2:
-			resultado = a - b;
+			Restar(a,b);
 			break;
 		case 3: 
-			resultado = a + b;
+			Sumar(a,b)
 			break;
 		case 4:
-			resultado = a / b;
+			Division(a,b);
 			break;
 		
 		default:
@@ -39,4 +39,27 @@ public class Calculadora {
 		teclado.close();
 		System.out.println("El resultado es " + resultado.toString());
 	}
+
+	public int Sumar (int a, int b) {
+		return a + b;
+	}
+
+	public int Restar (int a, int b) {
+		return a + b;
+	}
+
+	public int Multiplicar (int a, int b) {
+		return a * b;
+	}
+
+	public int Division (int a, int b) {
+		int aux = 0;
+		if(b != 0){
+			aux = a/b;
+		}
+		else aux = 0;
+		
+		return aux;
+	}
+
 }
